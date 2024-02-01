@@ -17,6 +17,70 @@
     <div class="parent">
       <img src="images/mobile/image-header.jpg" alt="heading-bg-image" srcset="images/desktop/image-header.jpg">
 
+      <div class="nav-wrapper">
+        <nav
+          class="relative flex justify-between items-center mb-20 custom-padding:mb-28"
+        >
+          <img
+            src="images/logo.svg"
+            height="20"
+            width="100"
+            class="custom-sm:w-32 custom-md:w-36"
+          />
+          <img
+            src="images/icon-hamburger.svg"
+            height="13"
+            width="17"
+            class="custom-padding:w-7 custom-md:invisible"
+            onclick="dropDown()"
+          />
+
+          <div class="dropDown hidden absolute top-6 inset-x-5 flex flex-col">
+            <div class="w-11 self-end overflow-hidden mb-0">
+              <div
+                class="h-16 bg-white border-transparent rotate-45 origin-bottom-left"
+              ></div>
+            </div>
+            <ul
+              class="flex flex-col items-center gap-6 bg-white mt-0 border-transparent text-custom-moderate-grey font-custom-body text-base px-38 py-5 hover:cursor-pointer"
+            >
+              <li
+                class="hover:cursor-pointer hover:text-custom-moderate-grey"
+              >
+                About
+              </li>
+              <li
+                class="hover:cursor-pointer hover:text-custom-moderate-grey"
+              >
+                Services
+              </li>
+              <li
+                class="hover:cursor-pointer hover:text-custom-moderate-grey"
+              >
+                Projects
+              </li>
+              <li
+                class="px-5 py-3 bg-yellow-300 text-custom-very-dark-grey font-custom-heading text-xs uppercase rounded-3xl hover:cursor-pointer hover:text-white"
+              >
+                Contact
+              </li>
+            </ul>
+          </div>
+
+          <ul
+            class="hidden custom-md:flex custom-md:flex-row custom-md:items-center custom-md:gap-10 custom-md:text-white custom-md:font-custom-body custom-md:text-base"
+          >
+            <li class="hover:cursor-pointer">About</li>
+            <li class="hover:cursor-pointer">Services</li>
+            <li class="hover:cursor-pointer">Projects</li>
+            <li
+              class="px-5 py-3 bg-white text-custom-very-dark-grey font-custom-heading text-xs uppercase rounded-3xl hover:cursor-pointer hover:bg-opacity-40 hover:text-white"
+            >
+              Contact
+            </li>
+          </ul>
+        </nav>
+
         <div class="content flex flex-col gap-8 items-center">
           <p
             class="font-custom-heading font-black text-white text-4xl custom-sm:text-5xl text-center tracking-custom-heading custom-md:tracking-custom-heading-big leading-snug uppercase"
@@ -31,7 +95,6 @@
       </div>
       </div>
     </div>
-
 
     <!-- Section-2 -->
     <div class="box-2 h-max custom-padding:grid grid-cols-2 flex flex-col-reverse ">
@@ -131,7 +194,10 @@
       </div>
     </div>
 
-     <!-- Section-5 -->
+
+
+
+    <!-- Section-5 -->
     <div class="box-6 py-16 items-center">
       <p
         class="font-custom-heading font-black text-custom-light-grey tracking-custom-body text-base text-center uppercase mb-10 custom-md:mb-5 custom-md:pt-24 custom-md:text-xl custom-md:tracking-custom-heading"
@@ -225,35 +291,34 @@
         </div>
       </div>
     </div>
-      
-    <!-- Section-6 -->
-        <div
-        class="grid grid-cols-2 grid-rows-2 custom-md:grid-cols-4 custom-md:grid-rows-1"
-      >
-        <img
-          src="images/mobile/image-gallery-milkbottles.jpg"
-          srcset="images/desktop/image-gallery-milkbottles.jpg"
-  
-        />
-        <img
-          src="images/mobile/image-gallery-orange.jpg"
-          srcset="images/desktop/image-gallery-orange.jpg"
-  
-        />
-        <img
-          src="images/mobile/image-gallery-cone.jpg"
-          srcset="images/desktop/image-gallery-cone.jpg"
-  
-          />
-        <img
-          src="images/mobile/image-gallery-sugar-cubes.jpg"
-          srcset="images/desktop/image-gallery-sugarcubes.jpg"
-  
-        />
-      </div>
-  
 
-      <!-- Section-7 -->
+    <!-- Section-6 -->
+    <div
+      class="grid grid-cols-2 grid-rows-2 custom-md:grid-cols-4 custom-md:grid-rows-1"
+    >
+      <img
+        src="images/mobile/image-gallery-milkbottles.jpg"
+        srcset="images/desktop/image-gallery-milkbottles.jpg"
+
+      />
+      <img
+        src="images/mobile/image-gallery-orange.jpg"
+        srcset="images/desktop/image-gallery-orange.jpg"
+
+      />
+      <img
+        src="images/mobile/image-gallery-cone.jpg"
+        srcset="images/desktop/image-gallery-cone.jpg"
+
+        />
+      <img
+        src="images/mobile/image-gallery-sugar-cubes.jpg"
+        srcset="images/desktop/image-gallery-sugarcubes.jpg"
+
+      />
+    </div>
+
+    <!-- Section-7 -->
     <div class="footer">
       <div
         class="pages flex flex-col gap-8 custom-md:gap-10 items-center pt-16 bg-custom-light-cyan h-custom-3"
@@ -315,7 +380,6 @@
         </div>
       </div>
     </div>
-
   </main>
 
 
