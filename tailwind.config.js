@@ -5,12 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'graphic-mob': "url('images/image-cherry-mob.jpg')",
-        'graphic-desk': "url('images/image-cherry-desk.jpg')",
-        'photography-mob': "url('images/image-orange-mob.jpg')",
-        'photography-desk': "url('images/image-orange-desk.jpg')",
-      },
+
       screens: {
         'custom-sm': '530px',
         'custom-padding': '661px',
@@ -47,6 +42,12 @@ module.exports = {
         'custom-soft-red' : ' hsl(7, 97%, 76%)',
         'custom-yellow' : '  hsl(51, 89%, 75%)',
         'custom-dark-blue' : '  hsl(198, 62%, 26%)',
+      },
+      backgroundImage: {
+        'graphic-mobil': "url('images/image-cherry-mob.jpg')",
+        'graphic-desk': "url('images/image-cherry-desk.jpg')",
+        'photography-mob': "url('images/image-orange-mob.jpg')",
+        'photography-desk': "url('images/image-orange-desk.jpg')",
       },
     },
   },
